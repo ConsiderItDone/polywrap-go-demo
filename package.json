@@ -1,0 +1,12 @@
+{
+  "name": "polywrap-go-demo",
+  "description": "Polywrap Golang Demo Wrapper",
+  "version": "1.0.0",
+  "repository": "https://github.com/ConsiderItDone/polywrap-go-demo",
+  "author": "Ramil <ramil.amerzyanov@consideritdone.tech>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test:workflow": "npx polywrap run -o ./workflows/output.json -v ./workflows/validator.cue ./workflows/e2e.yaml"
+  }
+}
