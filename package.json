@@ -7,6 +7,6 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "test:workflow": "npx polywrap run -o ./workflows/output.json -v ./workflows/validator.cue ./workflows/e2e.yaml"
+    "test:workflow": "npx polywrap run -o ./workflows/output.json ./workflows/e2e.yaml"
   }
 }

@@ -1,0 +1,23 @@
+name: calc-golang
+jobs:
+#  zzz:
+#    steps:
+#      - uri: fs/build
+#        method: zzz
+#        args:
+#          a: 100
+  add:
+    steps:
+      - uri: fs/build
+        method: add
+        args:
+          a: 128
+          b: 127
+  sub:
+    steps:
+      - uri: fs/build
+        method: sub
+        args:
+          a: 110
+          b: 100
+
